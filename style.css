@@ -283,3 +283,17 @@ aside > .cart-empty p:last-of-type {
   color: var(--text-muted);
 }
 
+/******************************************************************************
+ * RESPONSIVIDADE
+ *****************************************************************************/
+
+ /*CELULARES MAIORES */
+@media (min-width: 30rem) {
+    header .brand p {
+        display: block;
+    }
+    header .cart-buttom {
+        width: 3.25rem;
+        height: 2.625rem;
+    }
+}
